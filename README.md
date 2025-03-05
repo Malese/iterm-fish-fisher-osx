@@ -52,7 +52,7 @@ The installer detects what is absent from your machine and will install it.
 In case your machine already has a dependency, it will skip the installation for it.
 
 ```shell
-bash <(curl --silent --location "https://github.com/ghaiklor/iterm-fish-fisher-osx/blob/master/install.sh?raw=true")
+bash <(curl --silent --location "https://github.com/Malese/iterm-fish-fisher-osx/blob/master/install.sh?raw=true")
 ```
 
 ## Manual Installation

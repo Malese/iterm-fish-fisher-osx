@@ -4,7 +4,7 @@
 #author        :ghaiklor
 #date          :2021-06-20
 #version       :1.0
-#usage         :bash <(curl --silent --location "https://github.com/ghaiklor/iterm-fish-fisher-osx/blob/master/install.sh?raw=true")
+#usage         :bash <(curl --silent --location "https://github.com/Malese/iterm-fish-fisher-osx/blob/master/install.sh?raw=true")
 #bash_version  :3.2.57(1)-release
 #===================================================================================
 
@@ -14,7 +14,7 @@ PATH=/opt/homebrew/bin:$PATH
 TEMP_DIR=$(mktemp -d)
 COLOR_SCHEME_URL="https://github.com/MartinSeeler/iterm2-material-design/blob/6bd6c8b3627d079ed3ed74e152b12b1db1eb3a6b/material-design-colors.itermcolors?raw=true"
 NERD_FONT_URL="https://github.com/ryanoasis/nerd-fonts/blob/bc4416e176d4ac2092345efd7bcb4abef9d6411e/patched-fonts/FiraCode/Retina/complete/Fira%20Code%20Retina%20Nerd%20Font%20Complete.ttf?raw=true"
-PLUGINS_INSTALLER_URL="https://github.com/ghaiklor/iterm-fish-fisher-osx/blob/master/install_plugins.sh?raw=true"
+PLUGINS_INSTALLER_URL="https://github.com/Malese/iterm-fish-fisher-osx/blob/master/install_plugins.sh?raw=true"
 
 INFO_LEVEL="\033[0;33m"
 SUCCESS_LEVEL="\033[0;32m"
