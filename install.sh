@@ -93,7 +93,7 @@ function install_fish_shell() {
 
     brew install fish
     command -v fish | sudo tee -a /etc/shells
-    chsh -s "$(command -v fish)"
+    # chsh -s "$(command -v fish)"
   fi
 }
 
@@ -116,6 +116,9 @@ function print_post_installation() {
   print "$SUCCESS_LEVEL" "1) Open iTerm -> Preferences -> Profiles -> Colors -> Color Presets and apply Material Design preset"
   print "$SUCCESS_LEVEL" "2) Open iTerm -> Preferences -> Profiles -> Text -> Font and apply FiraCode Nerd Font with ligatures checkbox ticked"
   print "$SUCCESS_LEVEL" "3) Open iTerm -> Preferences -> Profiles -> Text -> Use a different font for non-ASCII text and apply FiraCode Nerd Font with ligatures checkbox ticked"
+  print "$SUCCESS_LEVEL" " "
+  print "$SUCCESS_LEVEL" "If You want to set Fish as default shell, execute:"
+  print "$SUCCESS_LEVEL" "chsh -s \"$(command -v fish)\""
 }
 
 print_banner
