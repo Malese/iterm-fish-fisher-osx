@@ -1,0 +1,221 @@
+Mac:iterm-fish-fisher-osx martin$ bash <(curl --silent --location "https://github.com/Malese/iterm-fish-fisher-osx/blob/master/install.sh?raw=true")
+                                               
+   ____ _ ____ _  _ ____ _  _ ____ _    _      
+   |___ | [__  |__| [__  |__| |___ |    |      
+   |    | ___] |  | ___] |  | |___ |___ |___   
+                                               
+    Command Line Tools + Homebrew + iTerm2     
+         Material Design + Nerd Fonts          
+     Fish Shell + Fisher + Plugins\Themes      
+                 by @ghaiklor                  
+                                               
+Command Line Tools already installed, skipping...
+Homebrew already installed, skipping...
+iTerm 2 already installed, skipping...
+Installing Color Scheme...
+Please, close opened iTerm instance when it's done importing the scheme...
+Installing Nerd Fonts...
+Please, close opened Font Book instance when it's done importing the fonts...
+Installing Fish Shell...
+==> Downloading https://formulae.brew.sh/api/formula.jws.json
+==> Downloading https://ghcr.io/v2/homebrew/core/fish/manifests/4.0.0
+################################################################################################################################################################################################################### 100.0%
+==> Fetching dependencies for fish: ncurses
+==> Downloading https://ghcr.io/v2/homebrew/core/ncurses/manifests/6.5
+################################################################################################################################################################################################################### 100.0%
+==> Fetching ncurses
+==> Downloading https://ghcr.io/v2/homebrew/core/ncurses/blobs/sha256:4a529cb864994c26766c55ae8e506297523b36319e0f5f5af0faf8250a451f77
+################################################################################################################################################################################################################### 100.0%
+==> Fetching fish
+==> Downloading https://ghcr.io/v2/homebrew/core/fish/blobs/sha256:c80c84237d87bf967035f6280a53c0f46456cd6591c312a96144125715ef0eaf
+################################################################################################################################################################################################################### 100.0%
+==> Installing dependencies for fish: ncurses
+==> Installing fish dependency: ncurses
+==> Downloading https://ghcr.io/v2/homebrew/core/ncurses/manifests/6.5
+Already downloaded: /Users/martin/Library/Caches/Homebrew/downloads/b2f8ce4e08b15832435170efd265346225ee388d5baab3d5c50e3a77c5673b5a--ncurses-6.5.bottle_manifest.json
+==> Pouring ncurses--6.5.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/ncurses/6.5: 4,052 files, 9.9MB
+==> Installing fish
+==> Pouring fish--4.0.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/fish/4.0.0: 1,612 files, 20.7MB
+==> Running `brew cleanup fish`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+Password:
+/opt/homebrew/bin/fish
+Changing shell for martin.
+Password for martin: 
+Installing Fisher + Plugins and post-processing installation...
+==> Downloading https://formulae.brew.sh/api/cask.jws.json
+==> Downloading https://ghcr.io/v2/homebrew/core/terminal-notifier/manifests/2.0.0
+################################################################################################################################################################################################################### 100.0%
+==> Fetching terminal-notifier
+==> Downloading https://ghcr.io/v2/homebrew/core/terminal-notifier/blobs/sha256:838ac4918afdb8464694e9236c4c61cde9b6d36caa35d01bbc00c6445015c77e
+################################################################################################################################################################################################################### 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/grc/manifests/1.13_1-4
+################################################################################################################################################################################################################### 100.0%
+==> Fetching dependencies for grc: mpdecimal, ca-certificates, openssl@3, readline, sqlite, xz and python@3.13
+==> Downloading https://ghcr.io/v2/homebrew/core/mpdecimal/manifests/4.0.0-1
+################################################################################################################################################################################################################### 100.0%
+==> Fetching mpdecimal
+==> Downloading https://ghcr.io/v2/homebrew/core/mpdecimal/blobs/sha256:0f5f269bed0e6be2de3edfc4b52867e656f993e5bcff40717f26ee94dd0d2211
+################################################################################################################################################################################################################### 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/ca-certificates/manifests/2025-02-25
+################################################################################################################################################################################################################### 100.0%
+==> Fetching ca-certificates
+==> Downloading https://ghcr.io/v2/homebrew/core/ca-certificates/blobs/sha256:8f46fb05f753f80f2bc398c0a24b10d680bd77d496e2b931de0b61998e37aebc
+################################################################################################################################################################################################################### 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/openssl/3/manifests/3.4.1
+################################################################################################################################################################################################################### 100.0%
+==> Fetching openssl@3
+==> Downloading https://ghcr.io/v2/homebrew/core/openssl/3/blobs/sha256:b20c7d9b63e7b320cba173c11710dee9888c77175a841031d7a245bb37355b98
+################################################################################################################################################################################################################### 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/readline/manifests/8.2.13
+################################################################################################################################################################################################################### 100.0%
+==> Fetching readline
+==> Downloading https://ghcr.io/v2/homebrew/core/readline/blobs/sha256:738c27ceee9a8b198f98438477ef7a513a96a965e3a434ac3aa8fb4ed76494b1
+################################################################################################################################################################################################################### 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/sqlite/manifests/3.49.1
+################################################################################################################################################################################################################### 100.0%
+==> Fetching sqlite
+==> Downloading https://ghcr.io/v2/homebrew/core/sqlite/blobs/sha256:757c3d60f4d35fe1c3336207d63992fc804fa6ddd2c40ebb84eb7bfa07bc69e1
+################################################################################################################################################################################################################### 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/xz/manifests/5.6.4
+################################################################################################################################################################################################################### 100.0%
+==> Fetching xz
+==> Downloading https://ghcr.io/v2/homebrew/core/xz/blobs/sha256:b49f3559f9425b0a8c8de8806b2162d757196c06d4043e65c6654e88cdac15e0
+################################################################################################################################################################################################################### 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/python/3.13/manifests/3.13.2
+################################################################################################################################################################################################################### 100.0%
+==> Fetching python@3.13
+==> Downloading https://ghcr.io/v2/homebrew/core/python/3.13/blobs/sha256:166ed4ffa110e57196cade5512bd7f5d27ce5c2c386c8abd416b8fcf3f0e1683
+################################################################################################################################################################################################################### 100.0%
+==> Fetching grc
+==> Downloading https://ghcr.io/v2/homebrew/core/grc/blobs/sha256:c53a320fd40831dbfd74a3add881c94b5d8bca074b6826c190f35c1a3316d96d
+################################################################################################################################################################################################################### 100.0%
+==> Pouring terminal-notifier--2.0.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/terminal-notifier/2.0.0: 13 files, 477.2KB
+==> Running `brew cleanup terminal-notifier`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+==> Installing dependencies for grc: mpdecimal, ca-certificates, openssl@3, readline, sqlite, xz and python@3.13
+==> Installing grc dependency: mpdecimal
+==> Downloading https://ghcr.io/v2/homebrew/core/mpdecimal/manifests/4.0.0-1
+Already downloaded: /Users/martin/Library/Caches/Homebrew/downloads/7b63c3b34bee402290af49fac829a6682ab45ea5c9258b6fe03b590a03a4c4a9--mpdecimal-4.0.0-1.bottle_manifest.json
+==> Pouring mpdecimal--4.0.0.arm64_sequoia.bottle.1.tar.gz
+🍺  /opt/homebrew/Cellar/mpdecimal/4.0.0: 22 files, 641.3KB
+==> Installing grc dependency: ca-certificates
+==> Downloading https://ghcr.io/v2/homebrew/core/ca-certificates/manifests/2025-02-25
+Already downloaded: /Users/martin/Library/Caches/Homebrew/downloads/6c1debb525d4dc6007afae4cd2b772105111632b22fc28506550f6dfe27c6d52--ca-certificates-2025-02-25.bottle_manifest.json
+==> Pouring ca-certificates--2025-02-25.all.bottle.tar.gz
+==> Regenerating CA certificate bundle from keychain, this may take a while...
+🍺  /opt/homebrew/Cellar/ca-certificates/2025-02-25: 4 files, 235.9KB
+==> Installing grc dependency: openssl@3
+==> Downloading https://ghcr.io/v2/homebrew/core/openssl/3/manifests/3.4.1
+Already downloaded: /Users/martin/Library/Caches/Homebrew/downloads/a2bb8b71ebddb1fe8553581fcbc1ffc4ab36795c68b3cd47977cf83f1673a5b1--openssl@3-3.4.1.bottle_manifest.json
+==> Pouring openssl@3--3.4.1.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/openssl@3/3.4.1: 7,236 files, 33.4MB
+==> Installing grc dependency: readline
+==> Downloading https://ghcr.io/v2/homebrew/core/readline/manifests/8.2.13
+Already downloaded: /Users/martin/Library/Caches/Homebrew/downloads/aa1afa38997a2866d91c81fdda8b36d436cd4ea7a82aed07d13c83c56eb3460e--readline-8.2.13.bottle_manifest.json
+==> Pouring readline--8.2.13.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/readline/8.2.13: 51 files, 1.7MB
+==> Installing grc dependency: sqlite
+==> Downloading https://ghcr.io/v2/homebrew/core/sqlite/manifests/3.49.1
+Already downloaded: /Users/martin/Library/Caches/Homebrew/downloads/ce3cf24bf33f0eff2d169e046ba5da3ec75ab9fe0439e7b7face44f42e033fcb--sqlite-3.49.1.bottle_manifest.json
+==> Pouring sqlite--3.49.1.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/sqlite/3.49.1: 13 files, 4.7MB
+==> Installing grc dependency: xz
+==> Downloading https://ghcr.io/v2/homebrew/core/xz/manifests/5.6.4
+Already downloaded: /Users/martin/Library/Caches/Homebrew/downloads/d14e84095418591f4112922f1a834dbac6c7e4fdc334eae0aaff35e2b860cc5b--xz-5.6.4.bottle_manifest.json
+==> Pouring xz--5.6.4.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/xz/5.6.4: 96 files, 2.0MB
+==> Installing grc dependency: python@3.13
+==> Downloading https://ghcr.io/v2/homebrew/core/python/3.13/manifests/3.13.2
+Already downloaded: /Users/martin/Library/Caches/Homebrew/downloads/ed88e7b3fd6fee101e6c569740db52ea7364a7e3d9092a35d8375795a39c2592--python@3.13-3.13.2.bottle_manifest.json
+==> Pouring python@3.13--3.13.2.arm64_sequoia.bottle.tar.gz
+==> /opt/homebrew/Cellar/python@3.13/3.13.2/bin/python3.13 -Im ensurepip
+==> /opt/homebrew/Cellar/python@3.13/3.13.2/bin/python3.13 -Im pip install -v --no-index --upgrade --isolated --target=/opt/homebrew/lib/python3.13/site-packages /opt/homebrew/Cellar/python@3.13/3.13.2/Frameworks/Pytho
+🍺  /opt/homebrew/Cellar/python@3.13/3.13.2: 3,274 files, 65.4MB
+==> Installing grc
+==> Pouring grc--1.13_1.all.bottle.4.tar.gz
+🍺  /opt/homebrew/Cellar/grc/1.13_1: 99 files, 123.1KB
+==> Running `brew cleanup grc`...
+fisher install version 4.4.5
+Fetching https://api.github.com/repos/jorgebucaran/fisher/tarball/HEAD
+Installing jorgebucaran/fisher
+           /Users/martin/.config/fish/functions/fisher.fish
+           /Users/martin/.config/fish/completions/fisher.fish
+Installed 1 plugin/s
+fisher install version 4.4.5
+Fetching https://api.github.com/repos/edc/bass/tarball/HEAD
+Installing edc/bass
+           /Users/martin/.config/fish/functions/__bass.py
+           /Users/martin/.config/fish/functions/bass.fish
+Installed 1 plugin/s
+fisher install version 4.4.5
+Fetching https://api.github.com/repos/oh-my-fish/theme-bobthefish/tarball/HEAD
+Installing oh-my-fish/theme-bobthefish
+           /Users/martin/.config/fish/functions/__bobthefish_colors.fish
+           /Users/martin/.config/fish/functions/__bobthefish_display_colors.fish
+           /Users/martin/.config/fish/functions/__bobthefish_glyphs.fish
+           /Users/martin/.config/fish/functions/bobthefish_display_colors.fish
+           /Users/martin/.config/fish/functions/fish_greeting.fish
+           /Users/martin/.config/fish/functions/fish_mode_prompt.fish
+           /Users/martin/.config/fish/functions/fish_prompt.fish
+           /Users/martin/.config/fish/functions/fish_right_prompt.fish
+           /Users/martin/.config/fish/functions/fish_title.fish
+Installed 1 plugin/s
+fisher install version 4.4.5
+Fetching https://api.github.com/repos/patrickf1/colored_man_pages.fish/tarball/HEAD
+Installing patrickf1/colored_man_pages.fish
+           /Users/martin/.config/fish/functions/cless.fish
+           /Users/martin/.config/fish/functions/man.fish
+Installed 1 plugin/s
+fisher install version 4.4.5
+Fetching https://api.github.com/repos/franciscolourenco/done/tarball/HEAD
+Installing franciscolourenco/done
+           /Users/martin/.config/fish/conf.d/done.fish
+Installed 1 plugin/s
+fisher install version 4.4.5
+Fetching https://api.github.com/repos/oh-my-fish/plugin-grc/tarball/HEAD
+Installing oh-my-fish/plugin-grc
+           /Users/martin/.config/fish/functions/grc.wrap.fish
+           /Users/martin/.config/fish/conf.d/executables
+           /Users/martin/.config/fish/conf.d/grc.fish
+Installed 1 plugin/s
+fisher install version 4.4.5
+Fetching https://api.github.com/repos/jorgebucaran/nvm.fish/tarball/HEAD
+Installing jorgebucaran/nvm.fish
+           /Users/martin/.config/fish/functions/_nvm_index_update.fish
+           /Users/martin/.config/fish/functions/_nvm_list.fish
+           /Users/martin/.config/fish/functions/_nvm_version_activate.fish
+           /Users/martin/.config/fish/functions/_nvm_version_deactivate.fish
+           /Users/martin/.config/fish/functions/nvm.fish
+           /Users/martin/.config/fish/conf.d/nvm.fish
+           /Users/martin/.config/fish/completions/nvm.fish
+Downloading the Node distribution index...
+Installed 1 plugin/s
+fisher install version 4.4.5
+Fetching https://api.github.com/repos/oh-my-fish/plugin-pj/tarball/HEAD
+Installing oh-my-fish/plugin-pj
+           /Users/martin/.config/fish/functions/pj.fish
+           /Users/martin/.config/fish/completions/pj.fish
+Installed 1 plugin/s
+fisher install version 4.4.5
+Fetching https://api.github.com/repos/markcial/upto/tarball/HEAD
+Installing markcial/upto
+           /Users/martin/.config/fish/functions/upto.fish
+           /Users/martin/.config/fish/completions/upto.fish
+Installed 1 plugin/s
+Parsing man pages and writing completions to /Users/martin/.cache/fish/generated_completions/
+  4544 / 4544 : zic.8                                    
+                 
+!!! IMPORTANT !!!
+                 
+The script accomplished all the commands it was told to do
+Unfortunately, some things can’t be automated and you need to do them manually
+ 
+1) Open iTerm -> Preferences -> Profiles -> Colors -> Color Presets and apply Material Design preset
+2) Open iTerm -> Preferences -> Profiles -> Text -> Font and apply FiraCode Nerd Font with ligatures checkbox ticked
+3) Open iTerm -> Preferences -> Profiles -> Text -> Use a different font for non-ASCII text and apply FiraCode Nerd Font with ligatures checkbox ticked
